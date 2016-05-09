@@ -79,7 +79,7 @@ model nfet bsim4 {
 +ua1     = 4.31e-009    ub1     = 7.61e-018    uc1     = -5.6e-011    prt     = 0          
 +at      = 33000      
 +
-+fnoimod = 0            tnoimod = 0          
++fnoimod = 0            tnoimod = 0            kf = 0          
 +
 +jss     = 0.0001       jsws    = 1e-011       jswgs   = 1e-010       njs     = 1          
 +ijthsfwd= 0.01         ijthsrev= 0.001        bvs     = 10           xjbvs   = 1          
@@ -149,7 +149,7 @@ model pfet bsim4 {
 +ua1     = 4.31e-009    ub1     = 7.61e-018    uc1     = -5.6e-011    prt     = 0          
 +at      = 33000      
 +
-+fnoimod = 0            tnoimod = 0          
++fnoimod = 0            tnoimod = 0            kf = 0         
 +
 +jss     = 0.0001       jsws    = 1e-011       jswgs   = 1e-010       njs     = 1          
 +ijthsfwd= 0.01         ijthsrev= 0.001        bvs     = 10           xjbvs   = 1          
